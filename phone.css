@@ -1,0 +1,67 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+
+}
+#logo img{
+    height: 59px;
+    margin: 1px 3px;
+    width: 100px;
+}
+#home{
+    height: 330px;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+#home::before{
+    height: 401px;
+    width: 100%;
+    background-size: 60% 200px;
+
+}
+/* #home h1{
+    font-size: 1.4rem;
+} */
+/* #home p{
+    font-size: 13px;
+    background-color: #fff;
+    opacity: 0.5;
+    border: 2px solid black;
+    color: #000;
+} */
+/* home section  */
+ 
+#members{
+    flex-direction: column;
+
+}
+#members .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+
+}
+#notices .box{
+    
+    padding: 34px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+#Complaint-box form{
+    width: 80%;
+}
+/* utility classes */
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+.h-primary{
+    font-size: 26px;
+}
+.h-secondary{
+    font-size: 1.4rem;
+}
